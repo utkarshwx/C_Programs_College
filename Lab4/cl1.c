@@ -8,5 +8,6 @@ int main(){
     printf("enter the radius of the circle\n");
     scanf("%f\n",&r);
     printf("The area of the circle is %f",(pi*r*r));
+    printf("The perimeter of the circle is %f",(2*pi*r));
     return 0;
 }
