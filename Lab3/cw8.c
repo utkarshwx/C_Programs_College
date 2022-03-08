@@ -5,8 +5,8 @@
 int main(){
 
     int i,in;
-    scanf("%d",&i);
-    scanf("%d",&in);
+    printf("Enter two numbers of which we have to find sum");
+    scanf("%d %d",&i,&in);
     printf("addition= %d",i+in);
     return 0;
 }
