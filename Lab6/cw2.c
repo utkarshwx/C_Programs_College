@@ -19,8 +19,8 @@ int main(){
     scanf("%d",&x4);
     printf("y4:");
     scanf("%d",&y4);
-    float m1=(y2-y1)/(x2-x1);
-    float m2=(y4-y3)/(x4-x3);
+    float m1=(float)(y2-y1)/(float)(x2-x1);
+    float m2=(float)(y4-y3)/(float)(x4-x3);
     printf("\nThe slope of the given points is %f",(m1==m2));
     return 0;
 }
