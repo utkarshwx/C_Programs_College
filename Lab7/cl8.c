@@ -3,24 +3,27 @@
 int main(){
 
     int c;
-    printf("Press 1, Lens\n");
-    printf("Press 2, Mirror");
+    printf("Press 1: Lens\n");
+    printf("Press 2: Mirror\n");
+    printf("Enter the choice:");
     scanf("%d",&c);
 
     if(c==1){
 
         int c1;
-        printf("Press 1, Convex Lens\n");
-        printf("Press 2, Concave Lens");
+        printf("Press 1: Convex Lens\n");
+        printf("Press 2: Concave Lens\n");
+        printf("Enter the choice:");
         scanf("%d",&c1);
 
         if(c1==1){
             int c2;
-            printf("Press 1, At infinity");
-            printf("Press 2, Beyond the centre of curvature C");
-            printf("Press 3, At the centre of curvature C");
-            printf("Press 4, Between C and F");
-            printf("Press 5, At focus F");
+            printf("Press 1: At infinity\n");
+            printf("Press 2: Beyond the centre of curvature C\n");
+            printf("Press 3: At the centre of curvature C\n");
+            printf("Press 4: Between C and F\n");
+            printf("Press 5: At focus F\n");
+            printf("Enter the choice:");
 
             scanf("%d",&c2);
 
@@ -60,8 +63,9 @@ int main(){
         else if(c1==2){
 
             int c2;
-            printf("Press 1, At Infinity\n");
-            printf("Press 2, Between Infinity and the Pole\n");
+            printf("Press 1: At Infinity\n");
+            printf("Press 2: Between Infinity and the Pole\n");
+            printf("Enter the choice:");
 
             scanf("%d",&c2);
 
@@ -82,23 +86,25 @@ int main(){
             else printf("invalid entry");
 
         }
-        else printf("Invalid entry");
+        else printf("invalid entry");
     }
     else if(c==2){
 
         int c1;
-        printf("Press 1, Concave Mirror\n");
-        printf("Press 2, Convex Mirror");
+        printf("Press 1: Concave Mirror\n");
+        printf("Press 2: Convex Mirror\n");
+        printf("Enter the choice:");
         scanf("%d",&c1);
 
         if(c1==1){
 
             int c2;
-            printf("Press 1, At infinity\n");
-            printf("Press 2, Beyond the centre of curvature C\n");
-            printf("Press 3, At the centre of curvature C\n");
-            printf("Press 4, Between C and F\n");
-            printf("Press 5, At focus F\n");
+            printf("Press 1: At infinity\n");
+            printf("Press 2: Beyond the centre of curvature C\n");
+            printf("Press 3: At the centre of curvature C\n");
+            printf("Press 4: Between C and F\n");
+            printf("Press 5: At focus F\n");
+            printf("Enter the choice:");
 
             scanf("%d",&c2);
 
@@ -138,8 +144,9 @@ int main(){
         else if(c1==2){
 
             int c2;
-            printf("Press 1, At Infinity\n");
-            printf("Press 2, Between Infinity and the Pole\n");
+            printf("Press 1: At Infinity\n");
+            printf("Press 2: Between Infinity and the Pole\n");
+            printf("Enter the choice:");
 
             scanf("%d",&c2);
 
@@ -160,9 +167,9 @@ int main(){
             else printf("invalid entry");
 
         }
-        else printf("Invalid entry");
+        else printf("invalid entry");
 
     }
-    else printf("provide correct value");
+    else printf("invalid entry");
     return 0;
 }

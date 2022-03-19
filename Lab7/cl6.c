@@ -20,7 +20,7 @@ int main(){
     m2=(float)(y3-y2)/(float)(x3-x2);
     m3=(float)(y3-y1)/(float)(x3-x1);
 
-    if(m1==m2) printf("It isn't a triangle");
+    if(m1==m2 && m2==m3 && m3==m1) printf("It isn't a triangle");
 
     else printf("It is a triangle");
 
