@@ -10,7 +10,8 @@ int main(){
     scanf("%d",&s);
     sum += s;
     i++;
-    if(i<=11) goto repeat;
+    if(i<=11) 
+    goto repeat;
 
     avg = sum/11.0;
     printf("Average score of the player will be: %f",avg);
