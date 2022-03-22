@@ -18,6 +18,7 @@ int main(){
         }
 
     }
-    printf("\n Topper is %d with average of %f",i,max);
+    printf("\n Topper is %d with average of %f",i,max
+    );
     return 0;
 }
