@@ -9,6 +9,6 @@
     -> hw is homework,<br>
     -> pcl is practice program of class concept.
 &nbsp;
-
+Join discord
 &nbsp;
   <img src="https://i.imgur.com/W4UpocQ.png">
