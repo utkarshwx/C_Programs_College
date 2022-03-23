@@ -4,7 +4,7 @@ int main(){
 
 	int n,i,a=0,b=1,c=a+b,d;
     
-	printf("Enter the limit for factorial: ");
+	printf("Enter the limit for fibonacci : ");
 
 	scanf("%d",&n);
 
