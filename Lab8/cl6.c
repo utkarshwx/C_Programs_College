@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(){
+void main(){
 
     float max,avg;
     int c,b,m,p,e,r=0,i=0;
@@ -20,5 +20,4 @@ int main(){
     }
     printf("\n Topper is %d with average of %f",i,max
     );
-    return 0;
 }
