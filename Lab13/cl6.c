@@ -10,7 +10,7 @@ int gcd(int m,int n)
                 m=n;
                 n=rem;
         }
-        return(m);
+        return m;
 }
 
 int main()
@@ -27,7 +27,7 @@ int main()
         if(num1==0 && num2==0 && num3==0)
         {
                 printf("\nInvalid number");
-                exit(0);
+                return 0;
         }
 
         gcd1=gcd(num1,num2);

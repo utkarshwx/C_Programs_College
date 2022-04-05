@@ -1,5 +1,11 @@
 #include <stdio.h>
-int power(int n1, int n2);
+int power(int base, int a) {
+    if (a != 0)
+        return (base * power(base, a - 1));
+    else
+        return 1;
+}
+
 int main() {
     int base, a, result;
     printf("Enter base number: ");
@@ -11,10 +17,5 @@ int main() {
     return 0;
 }
 
-int power(int base, int a) {
-    if (a != 0)
-        return (base * power(base, a - 1));
-    else
-        return 1;
-}
+
 
