@@ -1,15 +1,16 @@
 #include<stdio.h>
 
 int search(int a[], int in){
-    for(int i=0;i<10;i++){
+    for(int i=10;i>=0;i--){
         if(in==a[i])
         return i+1;
     }
+    return -1;
 }
 int main(){
 
     int n[10],item=0,a;
-    printf("Enter the item to be searched");
+    printf("Enter the item to be searched:");
     scanf("%d",&item);
     for(int i=0;i<10;i++){
 

@@ -5,6 +5,7 @@ int search(int a[], int in, int l, int r){
         if(in==a[i])
         return i+1;
     }
+    return -1;
 }
 int main(){
 
