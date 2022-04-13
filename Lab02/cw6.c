@@ -7,7 +7,7 @@ int main(){
     printf("Branch: CSSE\n");
     printf("JEE Rank: AIR 1\n");
     printf("Gender: Male\n");
-    printf("Phone: 8765X XXX66\n");
+    printf("Phone: 876XX XXX66\n");
     printf("Home_City: Lucknow, UP\n");
     
     return 0;
