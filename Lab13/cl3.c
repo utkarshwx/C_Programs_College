@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int factorial(int n) {
+unsigned long int factorial(unsigned long int n) {
 
    if(n == 0) {
       return 1;
@@ -9,9 +9,9 @@ int factorial(int n) {
    }
 }
 
-int main() {
-   int n = 8;
+unsigned long int main() {
+   unsigned long int n = 31;
    int i;
-	
-   printf("Factorial of %d: %d\n" , n , factorial(n));
+   
+   printf("Factorial of %lu: %lu\n" , n , factorial(n));
 }
