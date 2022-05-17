@@ -1,0 +1,11 @@
+Q1 palindrome property or not 100
+
+Q2 Input the string from keyboard whether the word is present in the string or not. Assume size of word is of 3/4 characters. If prsent display the starting position of the word else display -1.
+
+when we execute a program the data can be available in memory or in registers. Then in main memory the data cna be available either will be availbale in heap or the stack area of the memory. 
+All local variable available in the stack area. All formal variables are local variables. Some local variables could explicit be declared as register data types.
+Global variables and static variables are stored in the heap area of memory.
+
+A function has 4 local variables. Each takes 10 bytes memory. Static heap 
+
+20
