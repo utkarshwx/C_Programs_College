@@ -4,7 +4,7 @@
 int main(){
 
     char str[100];
-    int i=0, j=0, count =0;
+    int i=0, count =0,flag=0;
 
     printf("Enter a string: ");
     gets(str);
@@ -12,12 +12,14 @@ int main(){
     for(count=0; str[count]; ++count);
 
     while(str[i]){
-        if (str[i] == str[count-i]){
-            printf("Not a palindrome");
-            return 0;
+        if (str[i] != str[count-i-1]){
+            flag =1;
+            break;
         }
+        
         i++;
     }
-    printf("palindrome %s",str);
+    if( flag == 0) printf("palindrome %s",str);
+    else printf("Not a palindrome");
     return 0;
 }
